@@ -44,9 +44,6 @@ li{
 .logo2 {
     width: 40%;
     margin: 24px 4px 96px 114px;
-    .logo2 {
-    width: 40%;
-    margin: 24px 4px 96px 114px;
     transform: scale(0); 
     animation: Animation 2s forwards; 
 }
