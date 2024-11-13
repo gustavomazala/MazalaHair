@@ -127,7 +127,7 @@ button:hover {
     }
 
     .logo2 {
-        width: 34%; 
+        width: 30%; 
         margin: 0 auto; 
     }
 
@@ -150,8 +150,8 @@ button:hover {
         width: 100%;
     }
     .perfil{
-        width: 55%;
-        border-radius: 101px;
+        width: 50%;
+        border-radius: 100px;
     }
     header, footer {
         font-size: 21px; 
