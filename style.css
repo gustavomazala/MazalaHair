@@ -44,6 +44,20 @@ li{
 .logo2 {
     width: 40%;
     margin: 24px 4px 96px 114px;
+    .logo2 {
+    width: 40%;
+    margin: 24px 4px 96px 114px;
+    transform: scale(0); 
+    animation: Animation 2s forwards; 
+}
+
+@keyframes Animation {
+    0% {
+        transform: scale(0); 
+    }
+    100% {
+        transform: scale(1); 
+    }
 }
 
 .perfil {
@@ -141,6 +155,7 @@ button:hover {
     }
     .perfil{
         width: 55%;
+        border-radius: 101px;
     }
     header, footer {
         font-size: 21px; 
