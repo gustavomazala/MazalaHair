@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mázala Hair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <img class="logo" src="ma.png" alt="Imagem de logo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html#Sobre">Sobre</a></li>
+                <li><a href="home.html#Serviços">Serviços</a></li>
+                <li><a href="home.html#Promoções">Promoções</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contato" class="contato">
+        <h1>Contato</h1>
+        <p>Para mais informações, entre em contato conosco.</p>
+        <div >
+            <a href="https://www.instagram.com/mazala_hair_stylist/">Instagram</a>
+            <a href="https://api.whatsapp.com/send?phone=5531994407553">Whatsapp</a>
+        </div>
+    </section>
+
+    <section id="orcamento" class="contato" class="caixa">
+        <h2>Solicite um Orçamento</h2>
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div>
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+            <div>
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+            </div>
+            <div>
+                <label for="servicos">Serviços:</label>
+                <select id="servicos" name="servicos" required>
+                    <option value="">Selecione um serviço</option>
+                    <option value="corte">Corte de cabelo</option>
+                    <option value="tintura">Tintura</option>
+                    <option value="manicure">Maquiagem</option>
+                    <option value="massagem">Hidratação</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="contato">
+        <h2> Local</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.318344771905!2d-42.62766852478326!3d-19.52794168177192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa5541f50b0e659%3A0x974faccb4e686c28!2sR.%20Dr.%20Querubino%2C%20445%20-%2003%20-%20Centro%2C%20Cel.%20Fabriciano%20-%20MG%2C%2035170-001!5e0!3m2!1spt-BR!2sbr!4v1730482931903!5m2!1spt-BR!2sbr" width="100%" height="201px" style="border:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+    
+</body>
+</html>

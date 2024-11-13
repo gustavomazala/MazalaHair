@@ -1,0 +1,149 @@
+body {
+    font-size: 17px;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+a{
+    line-height: 1.5;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header {
+    background-color:  #CDAA5B;
+    padding: 1px 0;
+    font-size: 17px;
+    margin: 7px 1px 5px 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    align-content: center;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 144px;
+    margin: 1px 201px 1px 5px;
+}
+
+.logo2 {
+    width: 40%;
+    margin: 24px 4px 96px 114px;
+}
+
+.perfil {
+    max-width: 251px;
+    height: auto;
+    border-radius: 50%;
+    width: 100%;
+    margin: 23px;
+}
+
+.caixa {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    margin: 7px 1px 5px 1px;
+}
+
+/* Contato */
+.contato{
+    text-align-last: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 9px 73px 25px 73px;
+    margin: 40px;
+    box-shadow: 15px 7px 10px 12px rgb(143 121 41 / 22%);
+    opacity: 66%;
+}
+
+form {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #CDAA5B;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b18f4a;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .logo {
+        width: 100px; /* Reduz a largura da logo em telas menores */
+    }
+
+    .logo2 {
+        width: 70%; /* Ajusta a largura da logo2 */
+        margin: 0 auto; /* Centraliza a logo2 */
+    }
+
+    .caixa {
+        padding: 15px; /* Reduz o padding em caixas */
+    }
+
+    .contato {
+        padding: 15px; /* Ajusta o padding do formulário */
+        margin: 20px; /* Diminui a margem do formulário */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 15px; /* Diminui o tamanho da fonte em telas muito pequenas */
+    }
+
+    header, footer {
+        font-size: 15px; /* Ajusta o tamanho da fonte no cabeçalho e rodapé */
+    }
+
+    nav ul {
+        flex-direction: column; /* Alinha os itens do menu em coluna */
+    }
+
+    a {
+        margin: 5px 0; /* Ajusta as margens dos links */
+    }
+}
