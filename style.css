@@ -123,7 +123,7 @@ button:hover {
 /*Responsividade */
 @media (max-width: 768px) {
     .logo {
-        width: 92%; 
+        width: 77%; 
     }
 
     .logo2 {
@@ -147,11 +147,12 @@ button:hover {
     }
 
     img{
-        width: 100%;
+        width: 95%;
     }
     .perfil{
         width: 50%;
         border-radius: 100px;
+        margin: 0;
     }
     header, footer {
         font-size: 21px; 
