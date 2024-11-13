@@ -109,41 +109,46 @@ button:hover {
     background-color: #b18f4a;
 }
 
-/* Media Queries para Responsividade */
+
+/* Responsividade */
 @media (max-width: 768px) {
     .logo {
-        width: 100px; /* Reduz a largura da logo em telas menores */
+        width: 100%; 
     }
 
     .logo2 {
-        width: 70%; /* Ajusta a largura da logo2 */
-        margin: 0 auto; /* Centraliza a logo2 */
+        width: 70%; 
+        margin: 0 auto; 
     }
 
     .caixa {
-        padding: 15px; /* Reduz o padding em caixas */
+        padding: 15px; 
     }
 
     .contato {
-        padding: 15px; /* Ajusta o padding do formulário */
-        margin: 20px; /* Diminui a margem do formulário */
+        padding: 15px; 
+        margin: 20px; 
     }
 }
 
 @media (max-width: 480px) {
     body {
-        font-size: 15px; /* Diminui o tamanho da fonte em telas muito pequenas */
+        font-size: 15px; 
     }
 
+    img{
+        width: 100%;
+    }
+    
     header, footer {
-        font-size: 15px; /* Ajusta o tamanho da fonte no cabeçalho e rodapé */
+        font-size: 15px; 
     }
 
     nav ul {
-        flex-direction: column; /* Alinha os itens do menu em coluna */
+        flex-direction: column; 
     }
 
     a {
-        margin: 5px 0; /* Ajusta as margens dos links */
+        margin: 5px 0; 
     }
 }
