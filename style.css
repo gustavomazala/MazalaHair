@@ -120,8 +120,7 @@ button:hover {
     background-color: #b18f4a;
 }
 
-
-/* Responsividade */
+/*Responsividade */
 @media (max-width: 768px) {
     .logo {
         width: 92%; 
