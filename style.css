@@ -35,11 +35,6 @@ li{
     align-items: center;
 }
 
-.logo {
-    border-radius: 50%;
-    width: 144px;
-    margin: 1px 201px 1px 5px;
-}
 
 .logo2 {
     width: 40%;
@@ -57,13 +52,6 @@ li{
     }
 }
 
-.perfil {
-    max-width: 251px;
-    height: auto;
-    border-radius: 50%;
-    width: 100%;
-    margin: 23px;
-}
 
 .caixa {
     text-align: center;
@@ -74,51 +62,6 @@ li{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    margin: 7px 1px 5px 1px;
-}
-
-/* Contato */
-.contato{
-    text-align-last: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 9px 73px 25px 73px;
-    margin: 40px;
-    box-shadow: 15px 7px 10px 12px rgb(143 121 41 / 22%);
-    opacity: 66%;
-}
-
-form {
-    padding: 20px;
-    margin-top: 20px;
-}
-
-form div {
-    margin-bottom: 15px;
-}
-
-input, select {
-    width: 100%;
-    padding: 10px;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #CDAA5B;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #b18f4a;
-}
 
 /*Responsividade */
 @media (max-width: 768px) {
